@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  /* background-color: #282c34; */
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .App {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-y: scroll;
+  }
+
+  .quotesSection {
+    padding: 24px;
+    background-color: #b7ab8d;
+    height: 100vh;
+    width: 25%;
+    overflow-y: scroll;
+  }
+
+  .friendsSection {
+    padding: 24px;
+    background-color: #b7ab8d;
+    height: 100vh;
+    width: 25%;
+    overflow-y: scroll;
+  }
+
+  .mainSection {
+    height: 100vh;
+    width: 100%;
+    padding: 24px;
+    overflow-y: scroll;
+  }
+}

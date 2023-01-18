@@ -1,0 +1,34 @@
+.Message {
+  border: 2px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px 18px;
+}
+
+.Message img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.Message__textContent {
+  font-size: 0.9rem;
+}
+
+.Message__textContent p:nth-child(1) {
+  padding: 2px 2px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.Message__textContent h4 {
+  margin: 6px 0;
+  color: #b7ab8d;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}

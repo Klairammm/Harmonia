@@ -1,0 +1,5 @@
+.QuotesList {
+  flex-direction: column;
+  width: 350px;
+  gap: 30px;
+}

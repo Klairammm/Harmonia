@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (min-width: 800px) {
+  .App__body {
+    display: flex;
+    flex-direction: row;
+  }
+}
